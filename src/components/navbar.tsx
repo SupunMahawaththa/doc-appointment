@@ -10,8 +10,8 @@ function Navbar() {
             <h1 className="text-gray-500 text-2xl font-semibold">
               <Link to="/">LOGO HERE</Link>
             </h1>
-            <Button variant="outline" className="font-semibold border-custom-green" asChild>
-              <Link to="/login" className="text-custom-green hover:text-custom-green">Login</Link>
+            <Button variant="default" className="rounded-xl px-6 font-semibold" asChild>
+              <Link to="/login" className="">Login</Link>
             </Button>
           </div>
           <Separator />
