@@ -60,7 +60,7 @@ function BookingForm() {
     resolver: zodResolver(formSchema),
     defaultValues: {
       date: new Date(),
-      session: "08:00 AM - 10:00 AM",
+      session: "08:00 AM - 12:00 PM",
       name: "",
     },
   });
@@ -162,7 +162,7 @@ function BookingForm() {
           )}
         />
         <div className="flex justify-center">
-          <Button className="w-full rounded-full font-bold text-md" type="submit">Submit</Button>
+          <Button className="w-full rounded-md font-bold text-md" type="submit">Submit</Button>
         </div>
       </form>
     </Form>
